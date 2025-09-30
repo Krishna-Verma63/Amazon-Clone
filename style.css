@@ -1,0 +1,603 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+      background-color: black;
+        height: 60px;   
+}
+
+#logo{
+    background-image: url(Amazon\ Logo.jpeg);
+    height: 50px;
+    width: 114px;
+    background-size: cover;
+}
+
+.boder{
+    border: 2px solid transparent;
+    
+    
+}
+.boder:hover{
+    border: 2px solid white;
+}
+#loc{
+    display: flex;
+}
+
+#location{
+    height: 18px;
+    width: 15px;
+    font-size: 18px;
+}
+
+#primary-add{
+    height: 14px;
+    width: 105.6px;
+    margin-left: 18px;
+    font-size: 12px;
+}
+
+#secondary-add{
+    height: 16px;
+    width: 105.6px;
+    margin-left: 3px;
+    font-size: 14px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+#id{
+    font-size: 12px;
+}
+#cat{
+    background-color: white;
+    color: black;
+}
+#op{
+    color: black;
+    background-color: red;
+}
+#lens{
+
+    color: black;
+    width: 45px;
+    font-size: 25px;
+    border: none;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#button{
+    height: 40px;
+    background-color: rgb(255, 183, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 100%;
+    border: none;
+}
+
+select{
+    width: 50px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border: none;
+}
+
+#search-container{
+    display: flex;
+    width: 500px;
+    background-color: pink;
+}
+
+.second{
+    font-size: 14px;
+    font-weight: 700;
+}
+.first{
+    font-size: 12px;
+}
+
+#search-container:hover{
+    border: 2px solid orange;
+}
+
+.cart i{
+    font-size: 30px;
+}
+
+/** Panel Div **/
+
+#panel{
+    display: flex;
+    align-items: center;
+    height: 39px;
+    background-color:#222f3d;
+    justify-content: space-around;
+ 
+     
+}
+
+.font{
+    font-size: 14px;
+}
+#area{
+    display: flex;
+    width: 70%;
+    align-items: center;
+     margin-left: 10px;
+}
+#area p{
+    margin: 10px;
+}
+
+#area p:hover{
+    border: 2px white solid;
+}
+
+/** Hero Div**/
+#hero{
+background-image: url(/kitchen\ essential\ amzon\ imaghe.jpg);
+background-size: cover;
+height: 310px; 
+display: flex;
+align-items: end;
+justify-content: center;
+}
+
+.note{
+    height: 40px;
+    font-size: 14px;
+    width: 1500px;
+    border: 2px solid white;
+    background-color: white;
+    color: black;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 19px;
+}
+.note a{
+    color: #007185;
+  
+}
+/** boxes **/
+.aura{
+    height: 420px;
+    width: 360px;
+    background-color: white;
+}
+.aura-box{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#E58EFF;
+    height: 420px;
+}
+
+/** Box1 **/
+.H0{
+    font-weight: 700;
+    color: black;
+    font-size: 21px;
+}
+
+.bgs{
+    height: 303px;
+    width: 320px;
+
+    margin-top: 10px;
+}
+.box-inside{
+       margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.b12{
+
+        display: flex;
+        justify-content: space-between;
+}
+.b34{
+  
+        display: flex;
+        justify-content: space-between;
+    margin-top: 25px;}
+
+.b1{
+    height: 125px;
+    width: 150px;
+ 
+    background-image: url(/cleaning\ tools.jpg);
+    background-size: cover;
+}
+
+.b2{
+    height: 125px;
+    width: 150px;
+
+    background-image: url(/home\ store.jpg);
+    background-size: cover;
+
+}
+.b3{
+    height: 125px;
+    width: 150px;
+
+    background-image: url(/home\ decor.jpg);
+    background-size: cover;
+
+}
+.b4{
+    height: 125px;
+    width: 150px;
+  
+    background-image: url(/bedding.jpg);
+    background-size: cover;
+
+}
+
+
+.bp{
+    color: black;
+    font-size: 12px;
+}
+
+/** Box 2 **/
+.box2{
+    color: black;
+  
+   
+}
+
+.bg{
+    height: 303px;
+    width: 320px;
+    background-image:url(/shop\ gaming.jpg);
+    background-size: cover;
+    margin-top: 10px;
+}
+.box-content{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.anker{
+    color: #007185;
+    font-size: 13px;
+    margin-top: 30px;
+}
+.ankera{
+    color: #007185;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+/** Box 4 **/
+
+.ba{
+    display: flex;
+    width: 100%;
+    
+}
+
+.b1b{
+    width: 100%;
+}
+.ba1{
+    height: 145px;
+    width: 100%;
+    background-size: cover;
+    
+}
+.bh{
+    width: 101.66px;
+    height: 75px;
+}
+
+.i1{
+    background-image: url(coffeee.jpg);
+    background-size: cover;
+}
+
+.i2{
+    background-image: url(post\ and\ pans.jpg);
+    background-size: cover;
+}
+.i3{
+    background-image: url(kettles.jpg);
+    background-size: cover;
+}
+.fn{
+    font-size: 15px;
+}
+
+/** 2nd**/
+
+.iind{
+    height: 281.5px;
+    width :100%;
+    background-color: #e2e7e6;
+    border: 1px SOLID #e2e7e6;
+}
+
+.nextbox{
+    height: 281.5px;
+    width:98% ;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 14px;
+    
+}
+.h{
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.n1 , .n3{
+    height: 210px;
+    width: 155px;
+}
+.n2{
+   width: 280px;
+}
+.n3{
+    width: 159px;
+}
+.n4{
+    width: 159px;
+}
+.n5{
+    width:183px ;
+}
+.n6{
+    width: 190px;
+}
+.n7{
+    width:174px ;
+}
+.n8{
+    width: 155px;
+}
+
+.ni{
+    width: 119px;
+    height: 200px;
+    background-image: url(/insta\ mix.jpg);
+    background-size: cover;
+}
+.ni2{
+    width: 269.98px;
+    height: 126.75px;
+    background-image: url(/night\ cream.jpg);
+    background-size: cover;
+}
+.ni3{
+    width: 92px;
+    height: 200px;
+    background-image: url(/cer\ cleaner.jpg);
+    background-size: cover;
+}
+.ni4{
+    width: 149px;
+    height: 200px;
+    background-image: url(/truly.jpg);
+    background-size: cover;
+}
+.ni5{
+    width: 173px;
+    height: 200px;
+    background-image: url(/cetphil.jpg);
+    background-size: cover;
+}
+.ni6{
+    width: 180px;
+    height: 200px;
+    background-image: url(/karse4ll.jpg);
+    background-size: cover;
+}
+.ni7{
+    width: 164px;
+    height: 200px;
+    background-image: url(/catphil.jpg);
+    background-size: cover;
+}
+.ni8{
+    width: 88px;
+    height: 200px;
+    background-image: url(/cer.jpg);
+    background-size: cover;
+}
+.bigi{
+    display: flex;
+}
+
+.bigbro{
+    margin-left: 20px;
+    padding-top: 20px;   
+}
+
+/** Footer**/
+footer{
+    margin-top: 15px;
+}
+.foot{
+    height: 49px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+.foot1{
+    background-color: #222f3d;
+}
+
+
+.infinity{
+    display: flex;
+    padding-top: 50px;
+    height: 320px;
+    justify-content: space-around;
+    padding-left: 200px;
+    margin-right: 200px;
+    font-size: 14px;
+    background-color: #222f3d;}
+
+.u0{
+    height: 291.6px;
+}
+
+.infinity1{
+    height: 291.6px;
+    width: 136.05px;
+}
+
+.infinity2{
+    width: 184.33px;
+}
+.infinity3{
+    width: 222.21px;
+}
+.infinity4{
+    width: 157.41px;
+}
+.main{
+    font-size: 16px;
+    font-weight: 700;
+}
+.infinity a{
+    margin-top: 10px;
+    display: block;
+    color: #dddddd;
+}
+
+.infinity a:hover{
+    text-decoration: underline;
+
+}
+
+/** Amzon logo foot **/
+
+.foot-panel{
+    border-top: 0.05px solid #dddddd;
+    height: 100px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    height: 35px;
+    width: 76px;
+    background-image: url(/Amazon\ Logo.jpeg);
+    background-size: cover;
+    background-color: #dddddd;
+    margin-right: 100PX;
+}
+
+.selectz{
+    display: flex;
+    border: 2px solid #dddddd;
+    font-size: 13px;
+    color: #dddddd;
+    height: 33.8px;
+    width: 131.98px;
+    margin-right: 08px;
+}
+
+.selectz select{
+    color: white;
+    background-color:  #222f3d;
+    width: 90px;
+    margin-left: 5px;
+    border: none;
+    
+}
+#american{
+    border: 1px solid #dddddd;
+    display: flex;
+    font-size: 13px;
+    height: 33.8px;
+    width: 140.99px;
+    justify-content: center;
+    align-items: center;
+    color: #dddddd;
+}
+.flag{
+    height: 12px;
+    width: 18px;
+    background-size: cover;
+    background-image: url(/american\ flag.jpg);
+    margin-right: 10px;
+}
+#american a{
+    margin-right: 20px;
+
+}
+#usd{
+    border: 1px solid  #dddddd;
+    height: 34.6px;
+    width: 150.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: #dddddd;
+    margin-right: 8PX;
+}
+
+#usd span{
+    font-weight: 400;
+    color: white;
+    margin-right: 10px;
+}
+#usd p{
+    margin-right: 10px;
+}
+.bgz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+/** Last**/
+#last{
+    height: 77.2px;
+    background-color: #0f1111;
+    padding-top:20px ;
+    border: 1px solid #131a22;
+    font-size: 12px;
+}
+.yz{
+    margin-left: 15px;
+}
+#bao{
+    text-align: center;
+
+}
+#copyright{
+    text-align: center;
+    padding-top: 5px;
+}
+.yz:hover{
+    text-decoration: underline;
+}
+
+
+  
+
+   
