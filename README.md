@@ -1,3 +1,4 @@
 # Amazon-Clone
 
-I made this clone using HTMl and CSS.
+I made this clone using HTML and CSS. 
+
